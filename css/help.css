@@ -1,0 +1,136 @@
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* Directory Header Section */
+.directory-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.header-content {
+    max-width: 600px;
+}
+
+.header-content h1 {
+    font-size: 2.5rem;
+    color: #264653;
+}
+
+.header-content p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+.header-image {
+    width: 300px;
+    height: 200px;
+    background-color: #d8e2dc;
+}
+
+/* Search Professionals Section */
+.search-professionals {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.search-form {
+    max-width: 600px;
+}
+
+.search-form h2 {
+    color: #264653;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.form-buttons button[type="reset"] {
+    background-color: #f4f7f6;
+    color: #333;
+}
+
+.form-buttons button[type="submit"] {
+    background-color: #457b9d;
+    color: white;
+}
+
+.search-image {
+    width: 300px;
+    height: 200px;
+    background-color: #d8e2dc;
+}
+
+/* Available Professionals Section */
+.available-professionals {
+    margin-bottom: 40px;
+}
+
+.available-professionals h2 {
+    font-size: 2rem;
+    color: #264653;
+    margin-bottom: 20px;
+}
+
+.professionals-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.professional-card {
+    background-color: #f1faee;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.professional-card h3 {
+    color: #264653;
+    margin-bottom: 10px;
+}
+
+.professional-card p {
+    color: #555;
+}
+
